@@ -10,8 +10,8 @@ alpha = 0.25; %Roll-off solicitado
 t_step = Ts/L;
 
 %%%%%%%%%<1. Generacion de onda del pulso > %%%%%%%%%%%%%%%%%%%%%%
-pt = rcosdesign(alpha,6,L,'normal');
-pt = pt/(max(abs(pt))); %rescaling to match rcosine
+#pt = rcosdesign(alpha,6,L,'normal');
+#pt = pt/(max(abs(pt))); %rescaling to match rcosine
 
 %%%%%%%%%<2. Generacion de 100 simbolos binarios >%%%%%%%%%%%%%%%%%%%%
 Ns = 100;
@@ -28,7 +28,7 @@ for n=1:Ns
 end
 
 %%%%%%%%<5.Formacion de pulsos (filtrado de transmision)>%%%%%%%%%%
-tx_signal = conv(impulse_modulated, pt);
+#tx_signal = conv(impulse_modulated, pt);
 
 %%%%%%%%<6.Graficacion>%%%%%%%%%%
 figure(100)
