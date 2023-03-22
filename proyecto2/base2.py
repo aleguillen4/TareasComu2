@@ -1,9 +1,8 @@
 import os
 import sys
 import getopt
-import csv
 from math import log2
-
+import csv
 file_full_path = ""
 file_split_path = [];
 def myfunc(argv):
@@ -31,8 +30,6 @@ if __name__ == "__main__":
 file_huffman_comprimido = file_full_path+".huffman.bin"
 ruta_diccionario = file_full_path+".diccionario.csv"
 recovered_path = os.path.join(file_split_path[0], "recovered_"+file_split_path[1]);
-
-
 string=[];
 with open(file_full_path, "rb") as f:
     while (byte := f.read(1)):
@@ -48,8 +45,6 @@ class NodeTree(object):
         return (self.left, self.right)
     def __str__(self):
         return '%s_%s' % (self.left, self.right)
-    
-
 def insert_in_tree(raiz, ruta, valor):
     if(len(ruta)==1):
         if(ruta=='0'):
@@ -69,8 +64,6 @@ def insert_in_tree(raiz, ruta, valor):
                 raiz.right = NodeTree(None,None);
             ruta = ruta[1:];
             insert_in_tree(raiz.right,ruta,valor);
-
-
 def huffman_code_tree(node, left=True, binString=''):
     if type(node) is int:
         return {node: binString}
@@ -79,8 +72,6 @@ def huffman_code_tree(node, left=True, binString=''):
     d.update(huffman_code_tree(l, True, binString + '0'))
     d.update(huffman_code_tree(r, False, binString + '1'))
     return d
-
-
 prob_unit = 1/len(string)
 freq = {}
 stringmem = sys.getsizeof(string)
@@ -138,12 +129,11 @@ for c in string :
 #Se calcula el largo de los códigos comprimidos
 compressed_length_bit = len(binary_string)
 if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprimido
-    for i in range(8 - len(binary_string) % 8):
+    for i in range(8 - len(binary_string) % 8>0):
         binary_string += '0'
 #se agrega a byte_string cada caracter en binary_string
-byte_string = "".join([ str ( i ) for i in binary_string]) 
+byte_string = " " . join ([ str ( i ) for i in binary_string ]) 
 byte_string =[ byte_string [ i : i +8] for i in range (0 , len ( byte_string ), 8) ];
-
 
 for i in range(len(byte_string)):
     byte_string[i] = byte_string[i].encode()
@@ -163,3 +153,53 @@ writer.writerow([str(compressed_length_bit),"bits"])
 for entrada in huffmanCode:
     writer.writerow([str(entrada),huffmanCode[entrada]])
 csvfile.close()
+
+# ------------------------------------------------------------------------
+
+csvfile = open(ruta_diccionario, 'r')
+reader = csv.reader(csvfile)
+bits_a_leer = None
+diccionario = dict()
+
+
+for row in reader:
+
+    if bits_a_leer == None:
+        bits_a_leer = int(row[0])
+    else:
+        diccionario.update({int(row[0]):row[1]})
+
+Decoding = NodeTree(None, None)
+for entrada in diccionario:
+    insert_in_tree(Decoding, diccionario[entrada], entrada)
+
+
+nodo = Decoding
+data_estimated = []
+for i in range(compressed_length_bit):
+    (l,r) = nodo.children()
+    #print([i, binary_string[i]])
+
+    if (binary_string[i]=='1'):
+        nodo = r
+    else:
+        nodo = l
+
+    if type(nodo) is int:
+        data_estimated.append(nodo)
+        #print([i, nodo])
+        nodo = Decoding
+        
+
+x = 0
+incoherencias = 0
+while x < 786572:
+    if data_estimated[x] != string[x]:
+    	incoherencias += 1
+    x += 1
+
+print("Incoherencias: ", incoherencias)
+            
+	
+
+
