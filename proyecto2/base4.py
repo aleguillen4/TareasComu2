@@ -1,8 +1,9 @@
 import os
 import sys
 import getopt
-from math import log2
 import csv
+from math import log2
+
 file_full_path = ""
 file_split_path = [];
 def myfunc(argv):
@@ -30,6 +31,8 @@ if __name__ == "__main__":
 file_huffman_comprimido = file_full_path+".huffman.bin"
 ruta_diccionario = file_full_path+".diccionario.csv"
 recovered_path = os.path.join(file_split_path[0], "recovered_"+file_split_path[1]);
+
+
 string=[];
 with open(file_full_path, "rb") as f:
     while (byte := f.read(1)):
@@ -45,6 +48,8 @@ class NodeTree(object):
         return (self.left, self.right)
     def __str__(self):
         return '%s_%s' % (self.left, self.right)
+    
+
 def insert_in_tree(raiz, ruta, valor):
     if(len(ruta)==1):
         if(ruta=='0'):
@@ -64,6 +69,8 @@ def insert_in_tree(raiz, ruta, valor):
                 raiz.right = NodeTree(None,None);
             ruta = ruta[1:];
             insert_in_tree(raiz.right,ruta,valor);
+
+
 def huffman_code_tree(node, left=True, binString=''):
     if type(node) is int:
         return {node: binString}
@@ -72,6 +79,8 @@ def huffman_code_tree(node, left=True, binString=''):
     d.update(huffman_code_tree(l, True, binString + '0'))
     d.update(huffman_code_tree(r, False, binString + '1'))
     return d
+
+
 prob_unit = 1/len(string)
 freq = {}
 stringmem = sys.getsizeof(string)
@@ -129,11 +138,12 @@ for c in string :
 #Se calcula el largo de los códigos comprimidos
 compressed_length_bit = len(binary_string)
 if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprimido
-    for i in range(8 - len(binary_string) % 8>0):
+    for i in range(8 - len(binary_string) % 8):
         binary_string += '0'
 #se agrega a byte_string cada caracter en binary_string
-byte_string = " " . join ([ str ( i ) for i in binary_string ]) 
+byte_string = "".join([ str ( i ) for i in binary_string]) 
 byte_string =[ byte_string [ i : i +8] for i in range (0 , len ( byte_string ), 8) ];
+
 
 for i in range(len(byte_string)):
     byte_string[i] = byte_string[i].encode()
@@ -145,8 +155,7 @@ with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the 
     for binary_num in byte_string:
         f.write(binary_num)
     f.close()
-comprate = (membytestring/stringmem)
-print("Tasa de compresión: ", comprate)
+
 csvfile = open(ruta_diccionario, 'w')
 writer = csv.writer(csvfile)
 writer.writerow([str(compressed_length_bit),"bits"])
@@ -201,4 +210,3 @@ if len(data_estimated) == len(string):
         x += 1
 
 print("Incoherencias: ", incoherencias)
-
