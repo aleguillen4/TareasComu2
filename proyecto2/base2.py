@@ -27,7 +27,7 @@ def myfunc(argv):
             file_split_path = os.path.split(file_split_path)
 if __name__ == "__main__":
     myfunc(sys.argv)
-file_huffman_comprimido = file_full_path+".huffman"
+file_huffman_comprimido = file_full_path+".huffman.bin"
 ruta_diccionario = file_full_path+".diccionario.csv"
 recovered_path = os.path.join(file_split_path[0], "recovered_"+file_split_path[1]);
 string=[];
@@ -74,6 +74,7 @@ def huffman_code_tree(node, left=True, binString=''):
     return d
 prob_unit = 1/len(string)
 freq = {}
+stringmem = sys.getsizeof(string)
 for c in string:
     if c in freq:
         freq[c] += prob_unit
@@ -137,12 +138,11 @@ byte_string =[ byte_string [ i : i +8] for i in range (0 , len ( byte_string ), 
 for i in range(len(byte_string)):
     byte_string[i] = byte_string[i].encode()
 
-file_huffman_comprimido = byte_string# represents "Hello" in ASCII 
-print(byte_string)
-# open a binary file in write mode 
+membytestring = sys.getsizeof(byte_string)
 
-with open("file_huffman_comprimido.bin", "wb") as f: # write the byte variable to the file 
-    for binary_num in file_huffman_comprimido:
+print("Memoria original: ", stringmem, "  Memoria de comprimido: ", membytestring)
+with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the file 
+    for binary_num in byte_string:
         f.write(binary_num)
     f.close()
 
@@ -153,4 +153,3 @@ writer.writerow([str(compressed_length_bit),"bits"])
 for entrada in huffmanCode:
     writer.writerow([str(entrada),huffmanCode[entrada]])
 csvfile.close()
-
