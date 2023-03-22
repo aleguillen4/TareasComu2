@@ -2,6 +2,7 @@ import os
 import sys
 import getopt
 from math import log2
+import csv
 file_full_path = ""
 file_split_path = [];
 def myfunc(argv):
@@ -118,3 +119,38 @@ print("Eficiencia de la codificación original de la fuente: ", original_efficie
 #Eficiencia del nuevo código generado
 new_efficiency = avg_length/8
 print("Eficiencia del nuevo código de Huffman: ", new_efficiency)
+
+#Se crea una lista vacía para guardar el string binario
+binary_string = [];
+#Se itera sobre el código y se agrega abinary_string cada código de los códigos de Huffman
+for c in string :
+    binary_string += huffmanCode [ c ]
+#Se calcula el largo de los códigos comprimidos
+compressed_length_bit = len(binary_string)
+if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprimido
+    for i in range(8 - len(binary_string) % 8>0):
+        binary_string += '0'
+#se agrega a byte_string cada caracter en binary_string
+byte_string = " " . join ([ str ( i ) for i in binary_string ]) 
+byte_string =[ byte_string [ i : i +8] for i in range (0 , len ( byte_string ), 8) ];
+
+for i in range(len(byte_string)):
+    byte_string[i] = byte_string[i].encode()
+
+file_huffman_comprimido = byte_string# represents "Hello" in ASCII 
+print(byte_string)
+# open a binary file in write mode 
+
+with open("file_huffman_comprimido.bin", "wb") as f: # write the byte variable to the file 
+    for binary_num in file_huffman_comprimido:
+        f.write(binary_num)
+    f.close()
+
+csvfile = open(ruta_diccionario, 'w')
+writer = csv.writer(csvfile)
+writer.writerow([str(compressed_length_bit),"bits"])
+
+for entrada in huffmanCode:
+    writer.writerow([str(entrada),huffmanCode[entrada]])
+csvfile.close()
+
