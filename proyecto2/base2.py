@@ -155,7 +155,8 @@ with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the 
     for binary_num in byte_string:
         f.write(binary_num)
     f.close()
-
+comprate = (membytestring/stringmem)
+print("Tasa de compresión: ", comprate)
 csvfile = open(ruta_diccionario, 'w')
 writer = csv.writer(csvfile)
 writer.writerow([str(compressed_length_bit),"bits"])
@@ -163,3 +164,4 @@ writer.writerow([str(compressed_length_bit),"bits"])
 for entrada in huffmanCode:
     writer.writerow([str(entrada),huffmanCode[entrada]])
 csvfile.close()
+
