@@ -129,10 +129,10 @@ for c in string :
 #Se calcula el largo de los códigos comprimidos
 compressed_length_bit = len(binary_string)
 if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprimido
-    for i in range(8 - len(binary_string) % 8>0):
+    for i in range(8 - len(binary_string) % 8):
         binary_string += '0'
 #se agrega a byte_string cada caracter en binary_string
-byte_string = " " . join ([ str ( i ) for i in binary_string ]) 
+byte_string = "".join([ str ( i ) for i in binary_string ]) 
 byte_string =[ byte_string [ i : i +8] for i in range (0 , len ( byte_string ), 8) ];
 
 for i in range(len(byte_string)):
@@ -164,7 +164,6 @@ diccionario = dict()
 
 
 for row in reader:
-
     if bits_a_leer == None:
         bits_a_leer = int(row[0])
     else:
@@ -197,7 +196,7 @@ incoherencias = 0
 if len(data_estimated) == len(string):
     while x < len(string):
         if data_estimated[x] != string[x]:
-    	    incoherencias += 1
+            incoherencias += 1
         x += 1
 
 print("Incoherencias: ", incoherencias)
