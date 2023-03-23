@@ -149,9 +149,6 @@ new_efficiency = avg_length/8
 print("Eficiencia del nuevo código de Huffman: ", new_efficiency)
 
 
-
-
-
 #Se crea una lista vacía para guardar el string binario
 binary_string = [];
 #Se itera sobre el código y se agrega abinary_string cada código de los códigos de Huffman
@@ -180,8 +177,8 @@ with open(file_huffman_comprimido,"wb") as archivo_bin:
 memcompressed = sys.getsizeof(bytes_gen)
 
 
-print("Memoria original: ", stringmem ,"  Memoria comprimido: ",memcompressed)
-
+print("Memoria original: ", stringmem)
+print("Memoria comprimida: ",memcompressed)
 
 
 def comprate(originalmem, compressmem):
