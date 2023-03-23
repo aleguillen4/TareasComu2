@@ -4,7 +4,8 @@ Longitud media del código de Huffman:  6.929234350539884
 Varianza del código de Huffman:  1.0091880469563492
 Eficiencia de la codificación original de la fuente:  0.8625562609051843
 Eficiencia del nuevo código de Huffman:  0.8661542938174855
-Memoria original:  1624056   Memoria comprimido:  1443576
+Memoria original:  1624056
+Memoria comprimida:  1443576
 Tasa de compresión:  0.11112917288566404
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.02.tiff
@@ -13,7 +14,8 @@ Longitud media del código de Huffman:  6.328857218370706
 Varianza del código de Huffman:  1.9639248188391725
 Eficiencia de la codificación original de la fuente:  0.7871090106058577
 Eficiencia del nuevo código de Huffman:  0.7911071522963382
-Memoria original:  1624056   Memoria comprimido:  1283160
+Memoria original:  1624056
+Memoria comprimida:  1283160
 Tasa de compresión:  0.20990409197712395
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.03.tiff
@@ -22,7 +24,8 @@ Longitud media del código de Huffman:  5.997667066501095
 Varianza del código de Huffman:  4.74333629405887
 Eficiencia de la codificación original de la fuente:  0.7469873935645941
 Eficiencia del nuevo código de Huffman:  0.7497083833126369
-Memoria original:  1624056   Memoria comprimido:  1283160
+Memoria original:  1624056
+Memoria comprimida:  1283160
 Tasa de compresión:  0.20990409197712395
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.04.tiff
@@ -31,7 +34,8 @@ Longitud media del código de Huffman:  7.455303230528404
 Varianza del código de Huffman:  0.81752260053097
 Eficiencia de la codificación original de la fuente:  0.9286645504055406
 Eficiencia del nuevo código de Huffman:  0.9319129038160505
-Memoria original:  1624056   Memoria comprimido:  1624056
+Memoria original:  1624056
+Memoria comprimida:  1624056
 Tasa de compresión:  0.0
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.05.tiff
@@ -40,7 +44,8 @@ Longitud media del código de Huffman:  7.104290767885891
 Varianza del código de Huffman:  1.860517299966197
 Eficiencia de la codificación original de la fuente:  0.8839673124530333
 Eficiencia del nuevo código de Huffman:  0.8880363459857363
-Memoria original:  1624056   Memoria comprimido:  1443576
+Memoria original:  1624056
+Memoria comprimida:  1443576
 Tasa de compresión:  0.11112917288566404
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.06.tiff
@@ -49,7 +54,8 @@ Longitud media del código de Huffman:  7.575202797487223
 Varianza del código de Huffman:  0.8785466658282803
 Eficiencia de la codificación original de la fuente:  0.9424071812912905
 Eficiencia del nuevo código de Huffman:  0.9469003496859029
-Memoria original:  1624056   Memoria comprimido:  1624056
+Memoria original:  1624056
+Memoria comprimida:  1624056
 Tasa de compresión:  0.0
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.07.tiff
@@ -58,7 +64,8 @@ Longitud media del código de Huffman:  6.6223748144834795
 Varianza del código de Huffman:  2.3462326508613662
 Eficiencia de la codificación original de la fuente:  0.8235603082542365
 Eficiencia del nuevo código de Huffman:  0.8277968518104349
-Memoria original:  1624056   Memoria comprimido:  1443576
+Memoria original:  1624056
+Memoria comprimida:  1443576
 Tasa de compresión:  0.11112917288566404
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.1.08.tiff
@@ -67,7 +74,8 @@ Longitud media del código de Huffman:  6.88646390306379
 Varianza del código de Huffman:  2.276881242333492
 Eficiencia de la codificación original de la fuente:  0.857177460305873
 Eficiencia del nuevo código de Huffman:  0.8608079878829737
-Memoria original:  1624056   Memoria comprimido:  1443576
+Memoria original:  1624056
+Memoria comprimida:  1443576
 Tasa de compresión:  0.11112917288566404
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.2.01.tiff
@@ -76,7 +84,8 @@ Longitud media del código de Huffman:  7.277094785982386
 Varianza del código de Huffman:  1.8754504430884624
 Eficiencia de la codificación original de la fuente:  0.9053600379921967
 Eficiencia del nuevo código de Huffman:  0.9096368482477982
-Memoria original:  6675480   Memoria comprimido:  5933720
+Memoria original:  6675480
+Memoria comprimida:  5933720
 Tasa de compresión:  0.11111710318958337
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.2.03.tiff
@@ -85,7 +94,8 @@ Longitud media del código de Huffman:  7.801576969432545
 Varianza del código de Huffman:  0.6071018596226906
 Eficiencia de la codificación original de la fuente:  0.9703990521475951
 Eficiencia del nuevo código de Huffman:  0.9751971211790681
-Memoria original:  6675480   Memoria comprimido:  6675480
+Memoria original:  6675480
+Memoria comprimida:  6675480
 Tasa de compresión:  0.0
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.2.05.tiff
@@ -94,7 +104,8 @@ Longitud media del código de Huffman:  6.6922112661006725
 Varianza del código de Huffman:  2.777811774510654
 Eficiencia de la codificación original de la fuente:  0.8331130091471479
 Eficiencia del nuevo código de Huffman:  0.8365264082625841
-Memoria original:  6675480   Memoria comprimido:  5274392
+Memoria original:  6675480
+Memoria comprimida:  5274392
 Tasa de compresión:  0.209885731063534
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.2.06.tiff
@@ -103,7 +114,8 @@ Longitud media del código de Huffman:  7.788666517496706
 Varianza del código de Huffman:  0.49370082654465286
 Eficiencia de la codificación original de la fuente:  0.9703095635054825
 Eficiencia del nuevo código de Huffman:  0.9735833146870883
-Memoria original:  6675480   Memoria comprimido:  6675480
+Memoria original:  6675480
+Memoria comprimida:  6675480
 Tasa de compresión:  0.0
 Incoherencias:  0
 Running command: python3 base5.py -i misc/4.2.07.tiff
@@ -112,7 +124,8 @@ Longitud media del código de Huffman:  7.694167857488532
 Varianza del código de Huffman:  0.6516025559382739
 Eficiencia de la codificación original de la fuente:  0.9587006436149816
 Eficiencia del nuevo código de Huffman:  0.9617709821860665
-Memoria original:  6675480   Memoria comprimido:  6675480
+Memoria original:  6675480
+Memoria comprimida:  6675480
 Tasa de compresión:  0.0
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.1.09.tiff
@@ -121,7 +134,8 @@ Longitud media del código de Huffman:  6.73858687376279
 Varianza del código de Huffman:  1.7215367879074979
 Eficiencia de la codificación original de la fuente:  0.8395857301552605
 Eficiencia del nuevo código de Huffman:  0.8423233592203487
-Memoria original:  562488   Memoria comprimido:  444376
+Memoria original:  562488
+Memoria comprimida:  444376
 Tasa de compresión:  0.20998136849141671
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.1.10.tiff
@@ -130,7 +144,8 @@ Longitud media del código de Huffman:  7.357088472666363
 Varianza del código de Huffman:  0.6787311605904348
 Eficiencia de la codificación original de la fuente:  0.915056234564583
 Eficiencia del nuevo código de Huffman:  0.9196360590832954
-Memoria original:  562488   Memoria comprimido:  499960
+Memoria original:  562488
+Memoria comprimida:  499960
 Tasa de compresión:  0.11116326037177682
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.1.11.tiff
@@ -139,7 +154,8 @@ Longitud media del código de Huffman:  6.480310644129772
 Varianza del código de Huffman:  2.2743115831104257
 Eficiencia de la codificación original de la fuente:  0.8075023172667303
 Eficiencia del nuevo código de Huffman:  0.8100388305162215
-Memoria original:  562488   Memoria comprimido:  444376
+Memoria original:  562488
+Memoria comprimida:  444376
 Tasa de compresión:  0.20998136849141671
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.1.12.tiff
@@ -148,7 +164,8 @@ Longitud media del código de Huffman:  6.745073854119084
 Varianza del código de Huffman:  3.798405381327984
 Eficiencia de la codificación original de la fuente:  0.8396015608810559
 Eficiencia del nuevo código de Huffman:  0.8431342317648854
-Memoria original:  562488   Memoria comprimido:  444376
+Memoria original:  562488
+Memoria comprimida:  444376
 Tasa de compresión:  0.20998136849141671
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.1.13.tiff
@@ -157,7 +174,8 @@ Longitud media del código de Huffman:  1.9510887772204488
 Varianza del código de Huffman:  6.322657182160645
 Eficiencia de la codificación original de la fuente:  0.1959039791309432
 Eficiencia del nuevo código de Huffman:  0.2438860971525561
-Memoria original:  562488   Memoria comprimido:  136632
+Memoria original:  562488
+Memoria comprimida:  136632
 Tasa de compresión:  0.7570934846610061
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.1.14.tiff
@@ -166,7 +184,8 @@ Longitud media del código de Huffman:  7.368387391502945
 Varianza del código de Huffman:  0.8342008866264676
 Eficiencia de la codificación original de la fuente:  0.9189665689684012
 Eficiencia del nuevo código de Huffman:  0.9210484239378681
-Memoria original:  562488   Memoria comprimido:  499960
+Memoria original:  562488
+Memoria comprimida:  499960
 Tasa de compresión:  0.11116326037177682
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.2.08.tiff
@@ -175,7 +194,8 @@ Longitud media del código de Huffman:  7.233690969124201
 Varianza del código de Huffman:  1.4051144706014989
 Eficiencia de la codificación original de la fuente:  0.9002582881485494
 Eficiencia del nuevo código de Huffman:  0.9042113711405251
-Memoria original:  2312472   Memoria comprimido:  2055512
+Memoria original:  2312472
+Memoria comprimida:  2055512
 Tasa de compresión:  0.1111191832809219
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.2.09.tiff
@@ -184,7 +204,8 @@ Longitud media del código de Huffman:  7.024127071275261
 Varianza del código de Huffman:  1.6338515769258446
 Eficiencia de la codificación original de la fuente:  0.8747007128762864
 Eficiencia del nuevo código de Huffman:  0.8780158839094077
-Memoria original:  2312472   Memoria comprimido:  2055512
+Memoria original:  2312472
+Memoria comprimida:  2055512
 Tasa de compresión:  0.1111191832809219
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.2.10.tiff
@@ -193,7 +214,8 @@ Longitud media del código de Huffman:  5.734423016798481
 Varianza del código de Huffman:  0.7635723744847958
 Eficiencia de la codificación original de la fuente:  0.7134932698497922
 Eficiencia del nuevo código de Huffman:  0.7168028770998102
-Memoria original:  2312472   Memoria comprimido:  1624056
+Memoria original:  2312472
+Memoria comprimida:  1624056
 Tasa de compresión:  0.29769700995298537
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.3.01.tiff
@@ -202,7 +224,8 @@ Longitud media del código de Huffman:  7.54840709061611
 Varianza del código de Huffman:  0.9269293837617588
 Eficiencia de la codificación original de la fuente:  0.9404389269044636
 Eficiencia del nuevo código de Huffman:  0.9435508863270138
-Memoria original:  8448728   Memoria comprimido:  8448728
+Memoria original:  8448728
+Memoria comprimida:  8448728
 Tasa de compresión:  0.0
 Incoherencias:  0
 Running command: python3 base5.py -i misc/5.3.02.tiff
@@ -211,7 +234,8 @@ Longitud media del código de Huffman:  6.8687110831403295
 Varianza del código de Huffman:  1.4359752617702444
 Eficiencia de la codificación original de la fuente:  0.8539280875886607
 Eficiencia del nuevo código de Huffman:  0.8585888853925412
-Memoria original:  8448728   Memoria comprimido:  7509944
+Memoria original:  8448728
+Memoria comprimida:  7509944
 Tasa de compresión:  0.11111542471245375
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.01.tiff
@@ -220,7 +244,8 @@ Longitud media del código de Huffman:  6.052600675618773
 Varianza del código de Huffman:  1.750731365494441
 Eficiencia de la codificación original de la fuente:  0.7539118685078073
 Eficiencia del nuevo código de Huffman:  0.7565750844523467
-Memoria original:  2312472   Memoria comprimido:  1624056
+Memoria original:  2312472
+Memoria comprimida:  1624056
 Tasa de compresión:  0.29769700995298537
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.02.tiff
@@ -229,7 +254,8 @@ Longitud media del código de Huffman:  4.055372543636354
 Varianza del código de Huffman:  3.6799839275452397
 Eficiencia de la codificación original de la fuente:  0.5012155784792245
 Eficiencia del nuevo código de Huffman:  0.5069215679545442
-Memoria original:  2312472   Memoria comprimido:  1140568
+Memoria original:  2312472
+Memoria comprimida:  1140568
 Tasa de compresión:  0.5067754333890313
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.03.tiff
@@ -238,7 +264,8 @@ Longitud media del código de Huffman:  5.524054629057982
 Varianza del código de Huffman:  2.849677591507202
 Eficiencia de la codificación original de la fuente:  0.6875147283026334
 Eficiencia del nuevo código de Huffman:  0.6905068286322478
-Memoria original:  2312472   Memoria comprimido:  1624056
+Memoria original:  2312472
+Memoria comprimida:  1624056
 Tasa de compresión:  0.29769700995298537
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.04.tiff
@@ -247,7 +274,8 @@ Longitud media del código de Huffman:  6.129755450323277
 Varianza del código de Huffman:  2.01891185122109
 Eficiencia de la codificación original de la fuente:  0.7635485862197579
 Eficiencia del nuevo código de Huffman:  0.7662194312904096
-Memoria original:  2312472   Memoria comprimido:  1624056
+Memoria original:  2312472
+Memoria comprimida:  1624056
 Tasa de compresión:  0.29769700995298537
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.05.tiff
@@ -256,7 +284,8 @@ Longitud media del código de Huffman:  6.5861223587182725
 Varianza del código de Huffman:  0.9287708773181854
 Eficiencia de la codificación original de la fuente:  0.8208686441077389
 Eficiencia del nuevo código de Huffman:  0.8232652948397841
-Memoria original:  2312472   Memoria comprimido:  1827096
+Memoria original:  2312472
+Memoria comprimida:  1827096
 Tasa de compresión:  0.20989486575405022
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.06.tiff
@@ -265,7 +294,8 @@ Longitud media del código de Huffman:  6.725497373016148
 Varianza del código de Huffman:  0.9011389017290222
 Eficiencia de la codificación original de la fuente:  0.8373258337185304
 Eficiencia del nuevo código de Huffman:  0.8406871716270184
-Memoria original:  2312472   Memoria comprimido:  1827096
+Memoria original:  2312472
+Memoria comprimida:  1827096
 Tasa de compresión:  0.20989486575405022
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.07.tiff
@@ -274,7 +304,8 @@ Longitud media del código de Huffman:  6.023173884198694
 Varianza del código de Huffman:  1.7015500695133468
 Eficiencia de la codificación original de la fuente:  0.7494420088075783
 Eficiencia del nuevo código de Huffman:  0.7528967355248367
-Memoria original:  2312472   Memoria comprimido:  1624056
+Memoria original:  2312472
+Memoria comprimida:  1624056
 Tasa de compresión:  0.29769700995298537
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.08.tiff
@@ -283,7 +314,8 @@ Longitud media del código de Huffman:  5.080719694370363
 Varianza del código de Huffman:  3.333432782583806
 Eficiencia de la codificación original de la fuente:  0.6322508560357095
 Eficiencia del nuevo código de Huffman:  0.6350899617962954
-Memoria original:  2312472   Memoria comprimido:  1443576
+Memoria original:  2312472
+Memoria comprimida:  1443576
 Tasa de compresión:  0.37574336035203887
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.09.tiff
@@ -292,7 +324,8 @@ Longitud media del código de Huffman:  6.21503900441491
 Varianza del código de Huffman:  1.531168455421236
 Eficiencia de la codificación original de la fuente:  0.7742307411027135
 Eficiencia del nuevo código de Huffman:  0.7768798755518638
-Memoria original:  2312472   Memoria comprimido:  1827096
+Memoria original:  2312472
+Memoria comprimida:  1827096
 Tasa de compresión:  0.20989486575405022
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.1.10.tiff
@@ -301,7 +334,8 @@ Longitud media del código de Huffman:  5.933749685447819
 Varianza del código de Huffman:  1.8628891273165658
 Eficiencia de la codificación original de la fuente:  0.7391149956191787
 Eficiencia del nuevo código de Huffman:  0.7417187106809774
-Memoria original:  2312472   Memoria comprimido:  1624056
+Memoria original:  2312472
+Memoria comprimida:  1624056
 Tasa de compresión:  0.29769700995298537
 Incoherencias:  0
 Running command: python3 base5.py -i misc/7.2.01.tiff
@@ -310,7 +344,8 @@ Longitud media del código de Huffman:  5.67790714305885
 Varianza del código de Huffman:  3.496856929557956
 Eficiencia de la codificación original de la fuente:  0.7053311989810775
 Eficiencia del nuevo código de Huffman:  0.7097383928823563
-Memoria original:  8448728   Memoria comprimido:  6675480
+Memoria original:  8448728
+Memoria comprimida:  6675480
 Tasa de compresión:  0.20988342860605763
 Incoherencias:  0
 Running command: python3 base5.py -i misc/boat.512.tiff
@@ -319,7 +354,8 @@ Longitud media del código de Huffman:  7.221608369744837
 Varianza del código de Huffman:  1.808106119176171
 Eficiencia de la codificación original de la fuente:  0.8992932190466699
 Eficiencia del nuevo código de Huffman:  0.9027010462181047
-Memoria original:  2312472   Memoria comprimido:  2055512
+Memoria original:  2312472
+Memoria comprimida:  2055512
 Tasa de compresión:  0.1111191832809219
 Incoherencias:  0
 Running command: python3 base5.py -i misc/gray21.512.tiff
@@ -328,7 +364,8 @@ Longitud media del código de Huffman:  4.522495215001551
 Varianza del código de Huffman:  0.34806113448900905
 Eficiencia de la codificación original de la fuente:  0.5493278927859501
 Eficiencia del nuevo código de Huffman:  0.5653119018751939
-Memoria original:  2312472   Memoria comprimido:  1283160
+Memoria original:  2312472
+Memoria comprimida:  1283160
 Tasa de compresión:  0.4451132813716231
 Incoherencias:  0
 Running command: python3 base5.py -i misc/house.tiff
@@ -337,7 +374,8 @@ Longitud media del código de Huffman:  7.513663084879918
 Varianza del código de Huffman:  0.9676598745274025
 Eficiencia de la codificación original de la fuente:  0.9357993228724534
 Eficiencia del nuevo código de Huffman:  0.9392078856099898
-Memoria original:  6675480   Memoria comprimido:  5933720
+Memoria original:  6675480
+Memoria comprimida:  5933720
 Tasa de compresión:  0.11111710318958337
 Incoherencias:  0
 Running command: python3 base5.py -i misc/ruler.512.tiff
@@ -346,6 +384,7 @@ Longitud media del código de Huffman:  1.111057732630981
 Varianza del código de Huffman:  0.10158347388569723
 Eficiencia de la codificación original de la fuente:  0.06301124126593931
 Eficiencia del nuevo código de Huffman:  0.13888221657887262
-Memoria original:  2312472   Memoria comprimido:  312024
+Memoria original:  2312472
+Memoria comprimida:  312024
 Tasa de compresión:  0.8650690689444024
 Incoherencias:  0

@@ -1,0 +1,352 @@
+Archivo utilizado,Propiedad,Valor Obtenido
+misc/4.1.01.tiff,Entropía de la fuente,6.90045008724148
+misc/4.1.01.tiff,Longitud media del código de Huffman,6.92923435053988
+misc/4.1.01.tiff,Varianza del código de Huffman,1.00918804695635
+misc/4.1.01.tiff,Eficiencia de la codificación original de la fuente,0.862556260905184
+misc/4.1.01.tiff,Eficiencia del nuevo código de Huffman,0.866154293817485
+misc/4.1.01.tiff,Memoria original,1624056
+misc/4.1.01.tiff,Memoria comprimida,1443576
+misc/4.1.01.tiff,Tasa de compresión,0.111129172885664
+misc/4.1.01.tiff,Incoherencias,0
+misc/4.1.02.tiff,Entropía de la fuente,6.29687208484686
+misc/4.1.02.tiff,Longitud media del código de Huffman,6.32885721837071
+misc/4.1.02.tiff,Varianza del código de Huffman,1.96392481883917
+misc/4.1.02.tiff,Eficiencia de la codificación original de la fuente,0.787109010605858
+misc/4.1.02.tiff,Eficiencia del nuevo código de Huffman,0.791107152296338
+misc/4.1.02.tiff,Memoria original,1624056
+misc/4.1.02.tiff,Memoria comprimida,1283160
+misc/4.1.02.tiff,Tasa de compresión,0.209904091977124
+misc/4.1.02.tiff,Incoherencias,0
+misc/4.1.03.tiff,Entropía de la fuente,5.97589914851675
+misc/4.1.03.tiff,Longitud media del código de Huffman,5.9976670665011
+misc/4.1.03.tiff,Varianza del código de Huffman,4.74333629405887
+misc/4.1.03.tiff,Eficiencia de la codificación original de la fuente,0.746987393564594
+misc/4.1.03.tiff,Eficiencia del nuevo código de Huffman,0.749708383312637
+misc/4.1.03.tiff,Memoria original,1624056
+misc/4.1.03.tiff,Memoria comprimida,1283160
+misc/4.1.03.tiff,Tasa de compresión,0.209904091977124
+misc/4.1.03.tiff,Incoherencias,0
+misc/4.1.04.tiff,Entropía de la fuente,7.42931640324433
+misc/4.1.04.tiff,Longitud media del código de Huffman,7.4553032305284
+misc/4.1.04.tiff,Varianza del código de Huffman,0.81752260053097
+misc/4.1.04.tiff,Eficiencia de la codificación original de la fuente,0.928664550405541
+misc/4.1.04.tiff,Eficiencia del nuevo código de Huffman,0.93191290381605
+misc/4.1.04.tiff,Memoria original,1624056
+misc/4.1.04.tiff,Memoria comprimida,1624056
+misc/4.1.04.tiff,Tasa de compresión,0
+misc/4.1.04.tiff,Incoherencias,0
+misc/4.1.05.tiff,Entropía de la fuente,7.07173849962427
+misc/4.1.05.tiff,Longitud media del código de Huffman,7.10429076788589
+misc/4.1.05.tiff,Varianza del código de Huffman,1.8605172999662
+misc/4.1.05.tiff,Eficiencia de la codificación original de la fuente,0.883967312453033
+misc/4.1.05.tiff,Eficiencia del nuevo código de Huffman,0.888036345985736
+misc/4.1.05.tiff,Memoria original,1624056
+misc/4.1.05.tiff,Memoria comprimida,1443576
+misc/4.1.05.tiff,Tasa de compresión,0.111129172885664
+misc/4.1.05.tiff,Incoherencias,0
+misc/4.1.06.tiff,Entropía de la fuente,7.53925745033032
+misc/4.1.06.tiff,Longitud media del código de Huffman,7.57520279748722
+misc/4.1.06.tiff,Varianza del código de Huffman,0.87854666582828
+misc/4.1.06.tiff,Eficiencia de la codificación original de la fuente,0.94240718129129
+misc/4.1.06.tiff,Eficiencia del nuevo código de Huffman,0.946900349685903
+misc/4.1.06.tiff,Memoria original,1624056
+misc/4.1.06.tiff,Memoria comprimida,1624056
+misc/4.1.06.tiff,Tasa de compresión,0
+misc/4.1.06.tiff,Incoherencias,0
+misc/4.1.07.tiff,Entropía de la fuente,6.58848246603389
+misc/4.1.07.tiff,Longitud media del código de Huffman,6.62237481448348
+misc/4.1.07.tiff,Varianza del código de Huffman,2.34623265086137
+misc/4.1.07.tiff,Eficiencia de la codificación original de la fuente,0.823560308254237
+misc/4.1.07.tiff,Eficiencia del nuevo código de Huffman,0.827796851810435
+misc/4.1.07.tiff,Memoria original,1624056
+misc/4.1.07.tiff,Memoria comprimida,1443576
+misc/4.1.07.tiff,Tasa de compresión,0.111129172885664
+misc/4.1.07.tiff,Incoherencias,0
+misc/4.1.08.tiff,Entropía de la fuente,6.85741968244698
+misc/4.1.08.tiff,Longitud media del código de Huffman,6.88646390306379
+misc/4.1.08.tiff,Varianza del código de Huffman,2.27688124233349
+misc/4.1.08.tiff,Eficiencia de la codificación original de la fuente,0.857177460305873
+misc/4.1.08.tiff,Eficiencia del nuevo código de Huffman,0.860807987882974
+misc/4.1.08.tiff,Memoria original,1624056
+misc/4.1.08.tiff,Memoria comprimida,1443576
+misc/4.1.08.tiff,Tasa de compresión,0.111129172885664
+misc/4.1.08.tiff,Incoherencias,0
+misc/4.2.01.tiff,Entropía de la fuente,7.24288030393757
+misc/4.2.01.tiff,Longitud media del código de Huffman,7.27709478598239
+misc/4.2.01.tiff,Varianza del código de Huffman,1.87545044308846
+misc/4.2.01.tiff,Eficiencia de la codificación original de la fuente,0.905360037992197
+misc/4.2.01.tiff,Eficiencia del nuevo código de Huffman,0.909636848247798
+misc/4.2.01.tiff,Memoria original,6675480
+misc/4.2.01.tiff,Memoria comprimida,5933720
+misc/4.2.01.tiff,Tasa de compresión,0.111117103189583
+misc/4.2.01.tiff,Incoherencias,0
+misc/4.2.03.tiff,Entropía de la fuente,7.76319241718076
+misc/4.2.03.tiff,Longitud media del código de Huffman,7.80157696943255
+misc/4.2.03.tiff,Varianza del código de Huffman,0.607101859622691
+misc/4.2.03.tiff,Eficiencia de la codificación original de la fuente,0.970399052147595
+misc/4.2.03.tiff,Eficiencia del nuevo código de Huffman,0.975197121179068
+misc/4.2.03.tiff,Memoria original,6675480
+misc/4.2.03.tiff,Memoria comprimida,6675480
+misc/4.2.03.tiff,Tasa de compresión,0
+misc/4.2.03.tiff,Incoherencias,0
+misc/4.2.05.tiff,Entropía de la fuente,6.66490407317718
+misc/4.2.05.tiff,Longitud media del código de Huffman,6.69221126610067
+misc/4.2.05.tiff,Varianza del código de Huffman,2.77781177451065
+misc/4.2.05.tiff,Eficiencia de la codificación original de la fuente,0.833113009147148
+misc/4.2.05.tiff,Eficiencia del nuevo código de Huffman,0.836526408262584
+misc/4.2.05.tiff,Memoria original,6675480
+misc/4.2.05.tiff,Memoria comprimida,5274392
+misc/4.2.05.tiff,Tasa de compresión,0.209885731063534
+misc/4.2.05.tiff,Incoherencias,0
+misc/4.2.06.tiff,Entropía de la fuente,7.76247650804386
+misc/4.2.06.tiff,Longitud media del código de Huffman,7.78866651749671
+misc/4.2.06.tiff,Varianza del código de Huffman,0.493700826544653
+misc/4.2.06.tiff,Eficiencia de la codificación original de la fuente,0.970309563505482
+misc/4.2.06.tiff,Eficiencia del nuevo código de Huffman,0.973583314687088
+misc/4.2.06.tiff,Memoria original,6675480
+misc/4.2.06.tiff,Memoria comprimida,6675480
+misc/4.2.06.tiff,Tasa de compresión,0
+misc/4.2.06.tiff,Incoherencias,0
+misc/4.2.07.tiff,Entropía de la fuente,7.66960514891985
+misc/4.2.07.tiff,Longitud media del código de Huffman,7.69416785748853
+misc/4.2.07.tiff,Varianza del código de Huffman,0.651602555938274
+misc/4.2.07.tiff,Eficiencia de la codificación original de la fuente,0.958700643614982
+misc/4.2.07.tiff,Eficiencia del nuevo código de Huffman,0.961770982186066
+misc/4.2.07.tiff,Memoria original,6675480
+misc/4.2.07.tiff,Memoria comprimida,6675480
+misc/4.2.07.tiff,Tasa de compresión,0
+misc/4.2.07.tiff,Incoherencias,0
+misc/5.1.09.tiff,Entropía de la fuente,6.71668584124208
+misc/5.1.09.tiff,Longitud media del código de Huffman,6.73858687376279
+misc/5.1.09.tiff,Varianza del código de Huffman,1.7215367879075
+misc/5.1.09.tiff,Eficiencia de la codificación original de la fuente,0.83958573015526
+misc/5.1.09.tiff,Eficiencia del nuevo código de Huffman,0.842323359220349
+misc/5.1.09.tiff,Memoria original,562488
+misc/5.1.09.tiff,Memoria comprimida,444376
+misc/5.1.09.tiff,Tasa de compresión,0.209981368491417
+misc/5.1.09.tiff,Incoherencias,0
+misc/5.1.10.tiff,Entropía de la fuente,7.32044987651666
+misc/5.1.10.tiff,Longitud media del código de Huffman,7.35708847266636
+misc/5.1.10.tiff,Varianza del código de Huffman,0.678731160590435
+misc/5.1.10.tiff,Eficiencia de la codificación original de la fuente,0.915056234564583
+misc/5.1.10.tiff,Eficiencia del nuevo código de Huffman,0.919636059083295
+misc/5.1.10.tiff,Memoria original,562488
+misc/5.1.10.tiff,Memoria comprimida,499960
+misc/5.1.10.tiff,Tasa de compresión,0.111163260371777
+misc/5.1.10.tiff,Incoherencias,0
+misc/5.1.11.tiff,Entropía de la fuente,6.46001853813384
+misc/5.1.11.tiff,Longitud media del código de Huffman,6.48031064412977
+misc/5.1.11.tiff,Varianza del código de Huffman,2.27431158311043
+misc/5.1.11.tiff,Eficiencia de la codificación original de la fuente,0.80750231726673
+misc/5.1.11.tiff,Eficiencia del nuevo código de Huffman,0.810038830516221
+misc/5.1.11.tiff,Memoria original,562488
+misc/5.1.11.tiff,Memoria comprimida,444376
+misc/5.1.11.tiff,Tasa de compresión,0.209981368491417
+misc/5.1.11.tiff,Incoherencias,0
+misc/5.1.12.tiff,Entropía de la fuente,6.71681248704845
+misc/5.1.12.tiff,Longitud media del código de Huffman,6.74507385411908
+misc/5.1.12.tiff,Varianza del código de Huffman,3.79840538132798
+misc/5.1.12.tiff,Eficiencia de la codificación original de la fuente,0.839601560881056
+misc/5.1.12.tiff,Eficiencia del nuevo código de Huffman,0.843134231764885
+misc/5.1.12.tiff,Memoria original,562488
+misc/5.1.12.tiff,Memoria comprimida,444376
+misc/5.1.12.tiff,Tasa de compresión,0.209981368491417
+misc/5.1.12.tiff,Incoherencias,0
+misc/5.1.13.tiff,Entropía de la fuente,1.56723183304755
+misc/5.1.13.tiff,Longitud media del código de Huffman,1.95108877722045
+misc/5.1.13.tiff,Varianza del código de Huffman,6.32265718216065
+misc/5.1.13.tiff,Eficiencia de la codificación original de la fuente,0.195903979130943
+misc/5.1.13.tiff,Eficiencia del nuevo código de Huffman,0.243886097152556
+misc/5.1.13.tiff,Memoria original,562488
+misc/5.1.13.tiff,Memoria comprimida,136632
+misc/5.1.13.tiff,Tasa de compresión,0.757093484661006
+misc/5.1.13.tiff,Incoherencias,0
+misc/5.1.14.tiff,Entropía de la fuente,7.35173255174721
+misc/5.1.14.tiff,Longitud media del código de Huffman,7.36838739150295
+misc/5.1.14.tiff,Varianza del código de Huffman,0.834200886626468
+misc/5.1.14.tiff,Eficiencia de la codificación original de la fuente,0.918966568968401
+misc/5.1.14.tiff,Eficiencia del nuevo código de Huffman,0.921048423937868
+misc/5.1.14.tiff,Memoria original,562488
+misc/5.1.14.tiff,Memoria comprimida,499960
+misc/5.1.14.tiff,Tasa de compresión,0.111163260371777
+misc/5.1.14.tiff,Incoherencias,0
+misc/5.2.08.tiff,Entropía de la fuente,7.2020663051884
+misc/5.2.08.tiff,Longitud media del código de Huffman,7.2336909691242
+misc/5.2.08.tiff,Varianza del código de Huffman,1.4051144706015
+misc/5.2.08.tiff,Eficiencia de la codificación original de la fuente,0.900258288148549
+misc/5.2.08.tiff,Eficiencia del nuevo código de Huffman,0.904211371140525
+misc/5.2.08.tiff,Memoria original,2312472
+misc/5.2.08.tiff,Memoria comprimida,2055512
+misc/5.2.08.tiff,Tasa de compresión,0.111119183280922
+misc/5.2.08.tiff,Incoherencias,0
+misc/5.2.09.tiff,Entropía de la fuente,6.99760570301029
+misc/5.2.09.tiff,Longitud media del código de Huffman,7.02412707127526
+misc/5.2.09.tiff,Varianza del código de Huffman,1.63385157692584
+misc/5.2.09.tiff,Eficiencia de la codificación original de la fuente,0.874700712876286
+misc/5.2.09.tiff,Eficiencia del nuevo código de Huffman,0.878015883909408
+misc/5.2.09.tiff,Memoria original,2312472
+misc/5.2.09.tiff,Memoria comprimida,2055512
+misc/5.2.09.tiff,Tasa de compresión,0.111119183280922
+misc/5.2.09.tiff,Incoherencias,0
+misc/5.2.10.tiff,Entropía de la fuente,5.70794615879834
+misc/5.2.10.tiff,Longitud media del código de Huffman,5.73442301679848
+misc/5.2.10.tiff,Varianza del código de Huffman,0.763572374484796
+misc/5.2.10.tiff,Eficiencia de la codificación original de la fuente,0.713493269849792
+misc/5.2.10.tiff,Eficiencia del nuevo código de Huffman,0.71680287709981
+misc/5.2.10.tiff,Memoria original,2312472
+misc/5.2.10.tiff,Memoria comprimida,1624056
+misc/5.2.10.tiff,Tasa de compresión,0.297697009952985
+misc/5.2.10.tiff,Incoherencias,0
+misc/5.3.01.tiff,Entropía de la fuente,7.52351141523571
+misc/5.3.01.tiff,Longitud media del código de Huffman,7.54840709061611
+misc/5.3.01.tiff,Varianza del código de Huffman,0.926929383761759
+misc/5.3.01.tiff,Eficiencia de la codificación original de la fuente,0.940438926904464
+misc/5.3.01.tiff,Eficiencia del nuevo código de Huffman,0.943550886327014
+misc/5.3.01.tiff,Memoria original,8448728
+misc/5.3.01.tiff,Memoria comprimida,8448728
+misc/5.3.01.tiff,Tasa de compresión,0
+misc/5.3.01.tiff,Incoherencias,0
+misc/5.3.02.tiff,Entropía de la fuente,6.83142470070929
+misc/5.3.02.tiff,Longitud media del código de Huffman,6.86871108314033
+misc/5.3.02.tiff,Varianza del código de Huffman,1.43597526177024
+misc/5.3.02.tiff,Eficiencia de la codificación original de la fuente,0.853928087588661
+misc/5.3.02.tiff,Eficiencia del nuevo código de Huffman,0.858588885392541
+misc/5.3.02.tiff,Memoria original,8448728
+misc/5.3.02.tiff,Memoria comprimida,7509944
+misc/5.3.02.tiff,Tasa de compresión,0.111115424712454
+misc/5.3.02.tiff,Incoherencias,0
+misc/7.1.01.tiff,Entropía de la fuente,6.03129494806246
+misc/7.1.01.tiff,Longitud media del código de Huffman,6.05260067561877
+misc/7.1.01.tiff,Varianza del código de Huffman,1.75073136549444
+misc/7.1.01.tiff,Eficiencia de la codificación original de la fuente,0.753911868507807
+misc/7.1.01.tiff,Eficiencia del nuevo código de Huffman,0.756575084452347
+misc/7.1.01.tiff,Memoria original,2312472
+misc/7.1.01.tiff,Memoria comprimida,1624056
+misc/7.1.01.tiff,Tasa de compresión,0.297697009952985
+misc/7.1.01.tiff,Incoherencias,0
+misc/7.1.02.tiff,Entropía de la fuente,4.0097246278338
+misc/7.1.02.tiff,Longitud media del código de Huffman,4.05537254363635
+misc/7.1.02.tiff,Varianza del código de Huffman,3.67998392754524
+misc/7.1.02.tiff,Eficiencia de la codificación original de la fuente,0.501215578479224
+misc/7.1.02.tiff,Eficiencia del nuevo código de Huffman,0.506921567954544
+misc/7.1.02.tiff,Memoria original,2312472
+misc/7.1.02.tiff,Memoria comprimida,1140568
+misc/7.1.02.tiff,Tasa de compresión,0.506775433389031
+misc/7.1.02.tiff,Incoherencias,0
+misc/7.1.03.tiff,Entropía de la fuente,5.50011782642107
+misc/7.1.03.tiff,Longitud media del código de Huffman,5.52405462905798
+misc/7.1.03.tiff,Varianza del código de Huffman,2.8496775915072
+misc/7.1.03.tiff,Eficiencia de la codificación original de la fuente,0.687514728302633
+misc/7.1.03.tiff,Eficiencia del nuevo código de Huffman,0.690506828632248
+misc/7.1.03.tiff,Memoria original,2312472
+misc/7.1.03.tiff,Memoria comprimida,1624056
+misc/7.1.03.tiff,Tasa de compresión,0.297697009952985
+misc/7.1.03.tiff,Incoherencias,0
+misc/7.1.04.tiff,Entropía de la fuente,6.10838868975806
+misc/7.1.04.tiff,Longitud media del código de Huffman,6.12975545032328
+misc/7.1.04.tiff,Varianza del código de Huffman,2.01891185122109
+misc/7.1.04.tiff,Eficiencia de la codificación original de la fuente,0.763548586219758
+misc/7.1.04.tiff,Eficiencia del nuevo código de Huffman,0.76621943129041
+misc/7.1.04.tiff,Memoria original,2312472
+misc/7.1.04.tiff,Memoria comprimida,1624056
+misc/7.1.04.tiff,Tasa de compresión,0.297697009952985
+misc/7.1.04.tiff,Incoherencias,0
+misc/7.1.05.tiff,Entropía de la fuente,6.56694915286191
+misc/7.1.05.tiff,Longitud media del código de Huffman,6.58612235871827
+misc/7.1.05.tiff,Varianza del código de Huffman,0.928770877318185
+misc/7.1.05.tiff,Eficiencia de la codificación original de la fuente,0.820868644107739
+misc/7.1.05.tiff,Eficiencia del nuevo código de Huffman,0.823265294839784
+misc/7.1.05.tiff,Memoria original,2312472
+misc/7.1.05.tiff,Memoria comprimida,1827096
+misc/7.1.05.tiff,Tasa de compresión,0.20989486575405
+misc/7.1.05.tiff,Incoherencias,0
+misc/7.1.06.tiff,Entropía de la fuente,6.69860666974824
+misc/7.1.06.tiff,Longitud media del código de Huffman,6.72549737301615
+misc/7.1.06.tiff,Varianza del código de Huffman,0.901138901729022
+misc/7.1.06.tiff,Eficiencia de la codificación original de la fuente,0.83732583371853
+misc/7.1.06.tiff,Eficiencia del nuevo código de Huffman,0.840687171627018
+misc/7.1.06.tiff,Memoria original,2312472
+misc/7.1.06.tiff,Memoria comprimida,1827096
+misc/7.1.06.tiff,Tasa de compresión,0.20989486575405
+misc/7.1.06.tiff,Incoherencias,0
+misc/7.1.07.tiff,Entropía de la fuente,5.99553607046063
+misc/7.1.07.tiff,Longitud media del código de Huffman,6.02317388419869
+misc/7.1.07.tiff,Varianza del código de Huffman,1.70155006951335
+misc/7.1.07.tiff,Eficiencia de la codificación original de la fuente,0.749442008807578
+misc/7.1.07.tiff,Eficiencia del nuevo código de Huffman,0.752896735524837
+misc/7.1.07.tiff,Memoria original,2312472
+misc/7.1.07.tiff,Memoria comprimida,1624056
+misc/7.1.07.tiff,Tasa de compresión,0.297697009952985
+misc/7.1.07.tiff,Incoherencias,0
+misc/7.1.08.tiff,Entropía de la fuente,5.05800684828568
+misc/7.1.08.tiff,Longitud media del código de Huffman,5.08071969437036
+misc/7.1.08.tiff,Varianza del código de Huffman,3.33343278258381
+misc/7.1.08.tiff,Eficiencia de la codificación original de la fuente,0.63225085603571
+misc/7.1.08.tiff,Eficiencia del nuevo código de Huffman,0.635089961796295
+misc/7.1.08.tiff,Memoria original,2312472
+misc/7.1.08.tiff,Memoria comprimida,1443576
+misc/7.1.08.tiff,Tasa de compresión,0.375743360352039
+misc/7.1.08.tiff,Incoherencias,0
+misc/7.1.09.tiff,Entropía de la fuente,6.19384592882171
+misc/7.1.09.tiff,Longitud media del código de Huffman,6.21503900441491
+misc/7.1.09.tiff,Varianza del código de Huffman,1.53116845542124
+misc/7.1.09.tiff,Eficiencia de la codificación original de la fuente,0.774230741102713
+misc/7.1.09.tiff,Eficiencia del nuevo código de Huffman,0.776879875551864
+misc/7.1.09.tiff,Memoria original,2312472
+misc/7.1.09.tiff,Memoria comprimida,1827096
+misc/7.1.09.tiff,Tasa de compresión,0.20989486575405
+misc/7.1.09.tiff,Incoherencias,0
+misc/7.1.10.tiff,Entropía de la fuente,5.91291996495343
+misc/7.1.10.tiff,Longitud media del código de Huffman,5.93374968544782
+misc/7.1.10.tiff,Varianza del código de Huffman,1.86288912731657
+misc/7.1.10.tiff,Eficiencia de la codificación original de la fuente,0.739114995619179
+misc/7.1.10.tiff,Eficiencia del nuevo código de Huffman,0.741718710680977
+misc/7.1.10.tiff,Memoria original,2312472
+misc/7.1.10.tiff,Memoria comprimida,1624056
+misc/7.1.10.tiff,Tasa de compresión,0.297697009952985
+misc/7.1.10.tiff,Incoherencias,0
+misc/7.2.01.tiff,Entropía de la fuente,5.64264959184862
+misc/7.2.01.tiff,Longitud media del código de Huffman,5.67790714305885
+misc/7.2.01.tiff,Varianza del código de Huffman,3.49685692955796
+misc/7.2.01.tiff,Eficiencia de la codificación original de la fuente,0.705331198981078
+misc/7.2.01.tiff,Eficiencia del nuevo código de Huffman,0.709738392882356
+misc/7.2.01.tiff,Memoria original,8448728
+misc/7.2.01.tiff,Memoria comprimida,6675480
+misc/7.2.01.tiff,Tasa de compresión,0.209883428606058
+misc/7.2.01.tiff,Incoherencias,0
+misc/boat.512.tiff,Entropía de la fuente,7.19434575237336
+misc/boat.512.tiff,Longitud media del código de Huffman,7.22160836974484
+misc/boat.512.tiff,Varianza del código de Huffman,1.80810611917617
+misc/boat.512.tiff,Eficiencia de la codificación original de la fuente,0.89929321904667
+misc/boat.512.tiff,Eficiencia del nuevo código de Huffman,0.902701046218105
+misc/boat.512.tiff,Memoria original,2312472
+misc/boat.512.tiff,Memoria comprimida,2055512
+misc/boat.512.tiff,Tasa de compresión,0.111119183280922
+misc/boat.512.tiff,Incoherencias,0
+misc/gray21.512.tiff,Entropía de la fuente,4.3946231422876
+misc/gray21.512.tiff,Longitud media del código de Huffman,4.52249521500155
+misc/gray21.512.tiff,Varianza del código de Huffman,0.348061134489009
+misc/gray21.512.tiff,Eficiencia de la codificación original de la fuente,0.54932789278595
+misc/gray21.512.tiff,Eficiencia del nuevo código de Huffman,0.565311901875194
+misc/gray21.512.tiff,Memoria original,2312472
+misc/gray21.512.tiff,Memoria comprimida,1283160
+misc/gray21.512.tiff,Tasa de compresión,0.445113281371623
+misc/gray21.512.tiff,Incoherencias,0
+misc/house.tiff,Entropía de la fuente,7.48639458297963
+misc/house.tiff,Longitud media del código de Huffman,7.51366308487992
+misc/house.tiff,Varianza del código de Huffman,0.967659874527402
+misc/house.tiff,Eficiencia de la codificación original de la fuente,0.935799322872453
+misc/house.tiff,Eficiencia del nuevo código de Huffman,0.93920788560999
+misc/house.tiff,Memoria original,6675480
+misc/house.tiff,Memoria comprimida,5933720
+misc/house.tiff,Tasa de compresión,0.111117103189583
+misc/house.tiff,Incoherencias,0
+misc/ruler.512.tiff,Entropía de la fuente,0.504089930127514
+misc/ruler.512.tiff,Longitud media del código de Huffman,1.11105773263098
+misc/ruler.512.tiff,Varianza del código de Huffman,0.101583473885697
+misc/ruler.512.tiff,Eficiencia de la codificación original de la fuente,0.0630112412659393
+misc/ruler.512.tiff,Eficiencia del nuevo código de Huffman,0.138882216578873
+misc/ruler.512.tiff,Memoria original,2312472
+misc/ruler.512.tiff,Memoria comprimida,312024
+misc/ruler.512.tiff,Tasa de compresión,0.865069068944402
+misc/ruler.512.tiff,Incoherencias,0
