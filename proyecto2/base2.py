@@ -170,6 +170,7 @@ for row in reader:
         diccionario.update({int(row[0]):row[1]})
 
 Decoding = NodeTree(None, None)
+print(len(diccionario))
 for entrada in diccionario:
     insert_in_tree(Decoding, diccionario[entrada], entrada)
 
