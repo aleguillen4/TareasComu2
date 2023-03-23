@@ -132,13 +132,15 @@ if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprim
     for i in range(8 - len(binary_string) % 8):
         binary_string += '0'
 #se agrega a byte_string cada caracter en binary_string
-byte_string = "".join([ str ( i ) for i in binary_string ]) 
+byte_string = "".join([ str ( i ) for i in binary_string]) 
 byte_string =[ byte_string[i : i +8] for i in range(0 , len( byte_string ), 8) ];
 
 for i in range(len(byte_string)):
     byte_string[i] = byte_string[i].encode()
 
 membytestring = sys.getsizeof(byte_string)
+
+
 
 print("Memoria original: ", stringmem, "  Memoria de comprimido: ", membytestring)
 with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the file 

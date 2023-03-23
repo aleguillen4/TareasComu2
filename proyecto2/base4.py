@@ -142,7 +142,7 @@ if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprim
         binary_string += '0'
 #se agrega a byte_string cada caracter en binary_string
 byte_string = "".join([ str ( i ) for i in binary_string]) 
-byte_string =[ byte_string [ i : i +8] for i in range (0 , len ( byte_string ), 8) ];
+byte_string =[ byte_string[i : i +8] for i in range(0 , len( byte_string ), 8) ];
 
 
 for i in range(len(byte_string)):
@@ -156,6 +156,8 @@ with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the 
         f.write(binary_num)
     f.close()
 
+comprate = (membytestring/stringmem)
+print("Tasa de compresión: ", comprate)
 csvfile = open(ruta_diccionario, 'w')
 writer = csv.writer(csvfile)
 writer.writerow([str(compressed_length_bit),"bits"])
@@ -173,13 +175,13 @@ diccionario = dict()
 
 
 for row in reader:
-
     if bits_a_leer == None:
         bits_a_leer = int(row[0])
     else:
         diccionario.update({int(row[0]):row[1]})
 
 Decoding = NodeTree(None, None)
+print(len(diccionario))
 for entrada in diccionario:
     insert_in_tree(Decoding, diccionario[entrada], entrada)
 
