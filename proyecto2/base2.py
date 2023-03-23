@@ -141,14 +141,21 @@ for i in range(len(byte_string)):
 membytestring = sys.getsizeof(byte_string)
 
 
-
 print("Memoria original: ", stringmem, "  Memoria de comprimido: ", membytestring)
 with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the file 
     for binary_num in byte_string:
         f.write(binary_num)
     f.close()
-comprate = (membytestring/stringmem)
-print("Tasa de compresión: ", comprate)
+
+def comprate(originalmem, compressmem):
+    if(round(originalmem,5) == 0):
+        return 0
+    else:
+        return (originalmem-compressmem)/originalmem
+compressionRate = comprate(stringmem, membytestring)
+print("Tasa de compresión: ", compressionRate)
+
+
 csvfile = open(ruta_diccionario, 'w')
 writer = csv.writer(csvfile)
 writer.writerow([str(compressed_length_bit),"bits"])
@@ -172,7 +179,7 @@ for row in reader:
         diccionario.update({int(row[0]):row[1]})
 
 Decoding = NodeTree(None, None)
-print(len(diccionario))
+print("Cantidad de simbolos en el diccionario: ",len(diccionario))
 for entrada in diccionario:
     insert_in_tree(Decoding, diccionario[entrada], entrada)
 
