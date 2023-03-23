@@ -125,15 +125,15 @@ print("Eficiencia del nuevo código de Huffman: ", new_efficiency)
 binary_string = [];
 #Se itera sobre el código y se agrega abinary_string cada código de los códigos de Huffman
 for c in string :
-    binary_string += huffmanCode [ c ]
+    binary_string += huffmanCode [c]
 #Se calcula el largo de los códigos comprimidos
 compressed_length_bit = len(binary_string)
 if (compressed_length_bit %8 >0):  # se calculan los bytes de el código comprimido
     for i in range(8 - len(binary_string) % 8):
         binary_string += '0'
 #se agrega a byte_string cada caracter en binary_string
-byte_string = "".join([ str ( i ) for i in binary_string]) 
-byte_string =[ byte_string[i : i +8] for i in range(0 , len( byte_string ), 8) ];
+byte_string = "".join([ str(i) for i in binary_string]) 
+byte_string =[byte_string[i:i+8] for i in range(0 , len( byte_string ), 8) ];
 
 for i in range(len(byte_string)):
     byte_string[i] = byte_string[i].encode()
@@ -148,7 +148,8 @@ with open(file_huffman_comprimido, "wb") as f: # write the byte variable to the 
     f.close()
 
 def comprate(originalmem, compressmem):
-    if(round(originalmem,5) == 0):
+    if(round(originalmem,6) == 0):
+        print("Redondea a cero")
         return 0
     else:
         return (originalmem-compressmem)/originalmem
